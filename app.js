@@ -1,6 +1,8 @@
+let counter = 0;
+let increase = document.querySelector('#result');
+
 function spacer() {
-    let counter = 0;
-let increase = document.getElementById('result');
+    
 document.addEventListener("keyup", event => {
     if(event.which === 32 ) {
         counter += 1;
@@ -12,6 +14,17 @@ document.addEventListener("keyup", event => {
         increase.innerHTML = counter;
 
        }
+
+
+
+ $('h1').click(function() {
+    increase.innerHTML = 0;
+});
+
+
+      
+
+    
 });
 };
 
