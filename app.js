@@ -18,6 +18,7 @@ document.addEventListener("keyup", event => {
 
 
  $('h1').click(function() {
+    counter = 0;
     increase.innerHTML = 0;
 });
 
